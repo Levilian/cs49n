@@ -70,4 +70,5 @@ hinges on how to give you guys safe access to 12,000lb machines that can
 destroy themselves despite you not having training in being machinists.
 I believe this can be done, so we'll see how the quarter progresses.
 
-  - [excerpt] (strap-cut.mp4)
+  1. [CNC router cutting a leather strap](https://github.com/dddrrreee/cs49n/blob/master/strap-cut.mp4)
+  2.  more in class.  files are too large.
