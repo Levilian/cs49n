@@ -4,9 +4,6 @@ title: Quick overview.
 show_on_index: true
 ---
 
-<<<<<<< HEAD
-### Welcome to the Inaugural 2018 offering of CS49n!
-=======
 
 ### Overview
 
@@ -31,9 +28,9 @@ groups) have shown how to use.
 If you want to get started on devices: these sites are good places to 
 start:
 
-	- **1.**  [adafruit](https://www.adafruit.com)
-	- **2.**  [sparkfun](https://www.sparkfun.com)
-	- **3.**  [jameco](https://www.jameco.com) --- these guys
+ 1.  [adafruit](https://www.adafruit.com)
+ 2.  [sparkfun](https://www.sparkfun.com)
+ 3.  [jameco](https://www.jameco.com) --- these guys
 	have everything, but the previous two are significantly more
 	beginner-friendly.
 
