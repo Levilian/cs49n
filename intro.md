@@ -4,7 +4,6 @@ title: Quick overview.
 show_on_index: true
 ---
 
-
 ### Overview
 
 This class is project-based.  The inital part will involve buying 
@@ -26,9 +25,9 @@ project-mode and build something based on the devs your group (or other
 groups) have shown how to use.
 
 Next class we'll get your pi booted up, and sending binaries across
-the serial port.  To get up to speed, you can read cs107e's notes
-(starting at lecture 2):
-  - [cs107e] (http://cs107e.github.io/)
+the serial port.  To get up to speed, you can read cs107e's notes on
+setting up the pi:
+  - [cs107e] (http://cs107e.github.io/guides/)
 
 If you want to get a head start on devices, these sites are good places
 to look:
@@ -60,7 +59,6 @@ start:
  1. [the book](https://doc.rust-lang.org/std/)
  2. [a good podcast](https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
  3. [nice cliff notes](https://www.blaenkdenum.com/notes/rust/)
-
 
 ### Computer controlled fabrication (CNC)
 
