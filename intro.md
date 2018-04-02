@@ -25,14 +25,24 @@ do interesting things.   After doing a few devices you can switch to
 project-mode and build something based on the devs your group (or other
 groups) have shown how to use.
 
-If you want to get started on devices: these sites are good places to 
-start:
+If you want to get a head start on devices, these sites are good places
+to look:
 
  1.  [adafruit](https://www.adafruit.com)
  2.  [sparkfun](https://www.sparkfun.com)
  3.  [jameco](https://www.jameco.com) --- these guys
 	have everything, but the previous two are significantly more
 	beginner-friendly.
+
+To start with, it's good to find ones that are cheap (say $1-$5) without
+too many electrical wiring requirements.  After the first few, we can
+look at fancier ones.   
+
+Longer term, there's no need to stay with the R/Pi 1B (our initial
+machine) but can branch out to versions (the pi 0 is a good, small
+footprint one to use), or different manufacturers.
+
+### Rust
 
 As you write this code you'll likely discover that C, while fairly 
 translucent also allows very difficult to track down bugs.  We may
@@ -42,9 +52,12 @@ while also giving powerful support for generics and a cleaner method of
 semi-OO programming than C++ (low bar, I know).  Some good places to 
 start:
 
- **1.** [the book](https://doc.rust-lang.org/std/)
- **2.** [a good podcast](https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
- **3.** [nice cliff notes](https://www.blaenkdenum.com/notes/rust/)
+ 1. [the book](https://doc.rust-lang.org/std/)
+ 2. [a good podcast](https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
+ 3. [nice cliff notes](https://www.blaenkdenum.com/notes/rust/)
+
+
+### Computer controlled fabrication (CNC)
 
 In addition, a final topic may be the use of CNC machines to fabricate
 actual atoms using code you write.   This is more speculative, since it
