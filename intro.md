@@ -25,6 +25,11 @@ do interesting things.   After doing a few devices you can switch to
 project-mode and build something based on the devs your group (or other
 groups) have shown how to use.
 
+Next class we'll get your pi booted up, and sending binaries across
+the serial port.  To get up to speed, you can read cs107e's notes
+(starting at lecture 2):
+  - [cs107e] (http://cs107e.github.io/)
+
 If you want to get a head start on devices, these sites are good places
 to look:
 
