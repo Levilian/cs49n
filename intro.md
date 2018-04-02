@@ -25,6 +25,7 @@ groups) have shown how to use.
 
 If you want to get started on devices: these sites are good places to 
 start:
+
 	- **1.**  [adafruit] (https://www.adafruit.com)
 	- **2.**  [sparkfun] (https://www.sparkfun.com)
 	- **3.**  [jameco] (https://www.jameco.com) --- these guys
@@ -38,6 +39,7 @@ a modern language that prevents many memory errors possible in C,
 while also giving powerful support for generics and a cleaner method of
 semi-OO programming than C++ (low bar, I know).  Some good places to 
 start:
+
 	- **1.** [the book] (https://doc.rust-lang.org/std/)
 	- **2.** [a good podcast] (https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
 	- **3.** [nice cliff notes] (https://www.blaenkdenum.com/notes/rust/)
