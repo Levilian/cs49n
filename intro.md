@@ -3,6 +3,7 @@ layout: page
 title: Quick overview.
 show_on_index: true
 ---
+
 <<<<<<< HEAD
 ### Welcome to the Inaugural 2018 offering of CS49n!
 =======
@@ -30,9 +31,9 @@ groups) have shown how to use.
 If you want to get started on devices: these sites are good places to 
 start:
 
-	- **1.**  [adafruit] (https://www.adafruit.com)
-	- **2.**  [sparkfun] (https://www.sparkfun.com)
-	- **3.**  [jameco] (https://www.jameco.com) --- these guys
+	- **1.**  [adafruit](https://www.adafruit.com)
+	- **2.**  [sparkfun](https://www.sparkfun.com)
+	- **3.**  [jameco](https://www.jameco.com) --- these guys
 	have everything, but the previous two are significantly more
 	beginner-friendly.
 
@@ -44,9 +45,9 @@ while also giving powerful support for generics and a cleaner method of
 semi-OO programming than C++ (low bar, I know).  Some good places to 
 start:
 
-	- **1.** [the book] (https://doc.rust-lang.org/std/)
-	- **2.** [a good podcast] (https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
-	- **3.** [nice cliff notes] (https://www.blaenkdenum.com/notes/rust/)
+	- **1.** [the book](https://doc.rust-lang.org/std/)
+	- **2.** [a good podcast](https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
+	- **3.** [nice cliff notes](https://www.blaenkdenum.com/notes/rust/)
 
 In addition, a final topic may be the use of CNC machines to fabricate
 actual atoms using code you write.   This is more speculative, since it
