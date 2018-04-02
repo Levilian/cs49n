@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Quick overview.
+show_on_index: true
 ---
+<<<<<<< HEAD
+### Welcome to the Inaugural 2018 offering of CS49n!
+=======
 
 ### Overview
 
