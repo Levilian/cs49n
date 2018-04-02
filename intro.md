@@ -7,7 +7,7 @@ show_on_index: true
 ### Overview
 
 This class is project-based.  The inital part will involve buying 
-interesting devices, hooking them up to your r/pi, and writing the
+interesting devices, hooking them up to your r/pi B+, and writing the
 cleanest, small code you can to initialize/use them.  You'll document
 the code, take photos of the setup, and post these on github. 
 
@@ -25,9 +25,11 @@ project-mode and build something based on the devs your group (or other
 groups) have shown how to use.
 
 Next class we'll get your pi booted up, and sending binaries across
-the serial port.  To get up to speed, you can read cs107e's notes on
-setting up the pi:
-  - [cs107e] (http://cs107e.github.io/guides/)
+the serial port.  To get up to speed:
+  - [cs107e] (http://cs107e.github.io/guides/) cs107e's notes on
+	setting up the pi.
+
+  -  [Broadcom BCM2835 Peripherals Documentation](http://www.raspberrypi.org/wp-content/uploads/2012/02/BCM2835-ARM-Peripherals.pdf)
 
 If you want to get a head start on devices, these sites are good places
 to look:
@@ -67,3 +69,5 @@ actual atoms using code you write.   This is more speculative, since it
 hinges on how to give you guys safe access to 12,000lb machines that can
 destroy themselves despite you not having training in being machinists.
 I believe this can be done, so we'll see how the quarter progresses.
+
+  - [excerpt] (strap-cut.mp4)
