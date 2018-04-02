@@ -42,9 +42,9 @@ while also giving powerful support for generics and a cleaner method of
 semi-OO programming than C++ (low bar, I know).  Some good places to 
 start:
 
-	- **1.** [the book](https://doc.rust-lang.org/std/)
-	- **2.** [a good podcast](https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
-	- **3.** [nice cliff notes](https://www.blaenkdenum.com/notes/rust/)
+ **1.** [the book](https://doc.rust-lang.org/std/)
+ **2.** [a good podcast](https://soundcloud.com/oreilly-radar/jim-blandy-and-jason-orendorff-on-rust)
+ **3.** [nice cliff notes](https://www.blaenkdenum.com/notes/rust/)
 
 In addition, a final topic may be the use of CNC machines to fabricate
 actual atoms using code you write.   This is more speculative, since it
