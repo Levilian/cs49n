@@ -1,0 +1,206 @@
+We want this class repo to be the obvious thing for people to get in order to
+use the pi.  The plan is to write small, concise, concrete and correct guides.
+The most common problem with the different docs out there is that there will
+be a single crucial sentence missing, which will lead to hours of time wasted
+trying to figure out what is wrong.   Our docs will not have that problem. 
+
+The plan: Small groups take over different topics to write guides/howto's.
+
+	- The first part of the guide should be the absolute minimum
+	you need to actually do the thing.
+
+	- Then ideally a list of common problems and solutions.
+
+	- Then any additional supplement information.
+
+	Each time you can't figure out how to do something you need,
+	add that thing to the FAQ.
+
+	Run your guide by someone that didn't write it.   (Ideally:
+	rommate that isn't in class.)
+
+	Post on newsgroup.
+
+	Then will run by the class full on [later, hopefully use as the 
+		primary rather than post-facto]
+
+	Any missing fact is added.
+
+	Push it to git with your names as editors.
+
+Note the repo is entirely shared.  In general, if you don't own a file
+or directory, DON'T TOUCH IT without clearing with owners!   
+
+-----------------------------------------------------------------------
+
+A primary skill of this class: you did X, it didn't work.  
+	Not work can (often does) have many possible cuases.
+
+	Solving a linear equation for many variables: isolate down to 
+	one.
+
+	CS approach: binary-ish search, try to eliminate as many as possible.
+
+		- Take the smallest step possible from working to not working.
+		[this means will have the fewest variables to solve]
+
+
+
+			The smallest residue/epsilon from work->not work 
+			means you need the least amount of IQ to figure out
+			what the problem is.  Big step?  Have to be extremely
+			intelligent.  not sleepy.  Not stress.  And have a lot
+			of time.
+
+			Example: If you have working.  And you do 10
+			changes X0, X1, X2, ... X9 and get not-working.
+			Assume only one of the changes was the problem,
+			
+			Apply half of the changes to working and test.
+			If works, you know not problem in the other half.
+			If not work, start subdividing.  LogN steps
+			to isolate.  
+
+			Things get more complicated when there can be
+			overlapping, or when change can't be added
+			in isolation.  So just don't do it.  Do the
+			smallest change you can.   Run regression tests.
+			Only go forward when it works.
+
+		- Design tests / experiments to eliminate most.
+			Cut out as much code as possible.
+			Swap working for non-working components
+
+		- Once you eliminate the imporbable, recheck 
+		the ''impossible'' not matter if it seems stupid.
+
+
+		* And if determinant 0 can't solve.
+
+The smaller the step, the least there is to think about, the fewest
+variables to solve.  You want easy.  
+
+Related: you want to catch errors as soon as you add.  If you don't
+can have a bug from months ago.  Isolating requires reasoning about all
+the changes made ince then.  So always run automatic regression tests.
+If you hit a bug, write a test case and add.  Not a panacea, but much
+much easier than alternative.
+
+Examples for blink:
+	you load up blink.  It doesn't work.  What can be wrong?
+
+	- what I told you was wrong.
+	- pin on pi fried
+	- pi fried
+	- wire loose
+	- ttl serial dead
+	- switched tx and rx
+	- didn't unmount sd right
+	- usb port is fried
+	- ... not recognized
+	- pi is a different version
+	- not updated firmware
+	- led pin switched
+	- put wire on wrong GPIO pin (not ground, not right GPIO)
+	- compiler optimized code away
+	- wrong address for GPIO base
+	- tool chain not setup right
+	- you didn't copy foo.bin to kernel.img
+	- typed in wrong window (happens)
+	- used wrong use/dev (happens)
+	- ...
+
+   each of these you can eliminate / narrow down if you work with a partner.
+   sometimes by yourself.
+
+
+Get the most recent firmware:
+
+	https://github.com/raspberrypi/firmware/tree/master/boot
+		bootcode.bin
+		start.elf
+
+	copy it to the sd card, make sure you sync/unmount.
+
+Very useful set of baremetal examples from one of the initial pioneers:
+	https://github.com/dwelch67/raspberrypi
+
+get broadcom
+	firmware
+
+	note: if you right-click save you'll get an html file!   duh.
+
+for next glass:
+	broadcom timer, uart.
+
+
+https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/README.md
+bcm2835
+
+
+Basic guides from 107e:
+	http://cs107e.github.io/guides/
+
+	most important, setting up the toolchain on mac:
+		http://cs107e.github.io/guides/mac_toolchain/
+	
+		there's a lot.
+
+
+	there's useful writeups on basic electricity:
+		http://cs107e.github.io/guides/electricity/
+
+	breadboards:
+		https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard
+
+for ubuntu:
+   try:
+	sudo apt install gcc-arm-none-eabi
+
+
+   https://github.com/eistec/mulle/wiki/Installing-toolchain-%28GCC%29
+   if that doesn't work, a third party repo:
+	sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
+	sudo apt-get update
+	sudo apt-get install gcc-arm-none-eabi
+-----------------------------------------------------------------------------
+do blink
+	- this will require setting up the xmit cables.
+	- downloading the cross compiler stuff.
+	- copying and formatting sd cards
+		will have to
+
+do various different pins
+
+do in several different ways
+	- with volatile
+	- with get32
+	- with structure
+	- without volatile and -O3
+
+   - write code to do several at once.
+
+   - also try timing with different routines, see if they can see the 
+     lag.
+
+
+maybe do the bootloader?
+	just give them the code.
+	have them load it and us it.
+	then have them discuss --- potentially have them cut it down?
+
+docs:
+	- broadcom
+	- the pin doc
+	- anything else?
+
+could bring some rando devices and have them start if they want?
+ 	also pi zeros.
+
+ manifest for a new driver:
+	- the data sheet.  
+	- the sentences (page numbers, quotes) for what they are basing their 
+	  actions on.	
+
+	- a photo of any wiring.  
+	- very small code.
